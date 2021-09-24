@@ -1,0 +1,34 @@
+{
+  "name": "@duelsik/twitch-overlay-toolkit",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duelsik/twitch-overlay-toolkit.git"
+  },
+  "author": "Daniel Mizerski",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/Duelsik/twitch-overlay-toolkit/issues"
+  },
+  "homepage": "https://github.com/Duelsik/twitch-overlay-toolkit#readme",
+  "dependencies": {
+    "@twurple/auth": "^5.0.2",
+    "@twurple/chat": "^5.0.2",
+    "@twurple/pubsub": "^5.0.4",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.18"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "description": ""
+}
